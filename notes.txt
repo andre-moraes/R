@@ -1,0 +1,9 @@
+Kickoff Commands
+	getwd()				Get working directory
+	File/Change dir... 		Change working directory
+	dir()				List files on the directory
+	read.csv("mydata.csv")		Read "mydata.csv" file
+	File/New Script			Open text editor
+	ls()				List loaded functions
+	source("myFunction.r")		Load functions from "myFunction.r" file 
+	q() 				Exit R
