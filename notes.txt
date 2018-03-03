@@ -1,28 +1,46 @@
 Kickoff Commands
-	getwd()					Get working directory
-	File/Change dir... 			Change working directory
-	dir()					List files on the directory
-	read.csv("mydata.csv")			Read "mydata.csv" file
-	File/New Script				Open text editor
-	ls()					List loaded functions
-	source("myFunction.r")			Load functions from "myFunction.r" file 
-	q() 					Exit R
+	getwd()						Get working directory
+	File/Change dir... 				Change working directory
+	setwd("C:/Users/andre/OneDrive/Projects/R")
+	dir()						List files on the directory
+	read.csv("mydata.csv")				Read "mydata.csv" file
+	File/New Script					Open text editor
+	ls()						List loaded functions
+	source("myFunction.r")				Load functions from "myFunction.r" file 
+	q() 						Exit R
 
-	x <- 1					Assignment operator
-	##					Code comments
-	x <- c(0.5, 0.7)			Vector. Concatenate
-	x <- vector("numeric", length = 10)	Create a vector
-	as.type					Convert a list to type (e.g. numerical)
-	x <- list(1, "a", TRUE, 1+2i)		Create a list
-	x <- matrix(nrow = 2, ncol = 3)		Create a Matrix
-	dim(x)					Show matrix dimensions
-	attributes(x)				Show matrix attributes
-	cbind(x,y)				Vectors to matriz columns
-	rbind(x,y)				Vertors to matriz rows
-	x <- factor(c("yes", "yes", "no"))	Classifies the data
-	unclass(x)				Declassifies the factors
-	attr(,"levels")				Show the factors attributes
+	x <- 1						Assignment operator
+	##						Code comments
+	x <- c(0.5, 0.7)				Vector. Concatenate
+	x <- vector("numeric", length = 10)		Create a vector
+	as.type						Convert a list to type (e.g. numerical)
+	x <- list(1, "a", TRUE, 1+2i)			Create a list
+	x <- matrix(nrow = 2, ncol = 3)			Create a Matrix
+	dim(x)						Show matrix dimensions
+	attributes(x)					Show matrix attributes
+	cbind(x,y)					Vectors to matriz columns
+	rbind(x,y)					Vertors to matriz rows
+	x <- factor(c("yes", "yes", "no"))		Classifies the data
+	unclass(x)					Declassifies the factors
+	attr(,"levels")					Show the factors attributes
 	
-	dump(), dput()/dget()			Read/Write data+metadata at files - script_01.r
-	rm(variable)				Delete variable
-	Connections				script_01.r
+	dump(), dput()/dget()				Read/Write data+metadata at files - script_01.r
+	rm(variable)					Delete variable
+	Connections					script_01.r
+
+	args(function)					Show the function arguments
+	View(function)					Show the function script
+
+	Swirl:
+	install.packages("swirl")			Install Swirl package
+	packageVersion("swirl")				Show version
+	library(swirl)					Load Swirl
+	install_from_swirl("R Programming")		Install Coursera exercises
+	swirl()						Start Swirl
+		1. Basic Building Blocks
+		2. Workspace and Files
+		3. Sequences of Numbers
+		4. Vectors
+		5. Missing Values
+		6. Subsetting Vectors
+		7. Matrices and Data Frames
