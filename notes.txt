@@ -44,3 +44,10 @@ Kickoff Commands
 		5. Missing Values
 		6. Subsetting Vectors
 		7. Matrices and Data Frames
+
+	Debugging Tools
+		traceback
+		debug
+		browser
+		trace
+		recover
